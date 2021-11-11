@@ -5,11 +5,13 @@
     <string name="dial_number">PANGGIL TELEPON</string>
     <string name="move_with_result">PINDAH AKTIFITI UNTUK RESULT</string>
     <string name="result_from_activity">HASIL DARI AKTIVITI</string>
-    <string name="choose_color">PILIH WARNA YANG KAMU SUKA</string>
-    <string name="_yellow">KUNING</string>
-    <string name="_white">PUTIH</string>
-    <string name="_blue">BIRU</string>
+    <string name="choose_drink">PILIH MINUMAN YANG KAMU SUKA</string>
+    <string name="_chocolate">Coklat</string>
+    <string name="_capuccino">Capucino</string>
+    <string name="_strawberry">Straberi</string>
+    <string name="_vanilla">Vanila</string>
     <string name="choose">PILIH</string>
     <string name="data_received">DATA DI TERIMA</string>
     <string name="this_ismove_activity">INI PINDAH AKTIVITI</string>
+
 </resources>

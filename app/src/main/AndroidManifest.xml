@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.IntentMuhajirin">
         <activity
+            android:name=".MoveForResultActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MoveForResult"
+            android:exported="false" />
+        <activity
             android:name=".MoveWithDataActivity"
             android:exported="false" />
         <activity

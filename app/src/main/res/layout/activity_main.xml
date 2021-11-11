@@ -6,11 +6,13 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:orientation="vertical">
+
     <ImageView
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:scaleType="centerCrop"
-    android:src="@drawable/jirin"/>
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/jirin" />
+
     <Button
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -19,6 +21,7 @@
     android:layout_marginLeft="@dimen/activity_horizontal_margin"
     android:layout_marginRight="@dimen/activity_horizontal_margin"
     android:id="@+id/btn_move_activity" />
+
     <Button
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -28,7 +31,37 @@
     android:layout_marginRight="@dimen/activity_horizontal_margin"
     android:layout_below="@id/btn_move_activity"
     android:id="@+id/btn_move_with_data"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dial_number"
+        android:layout_below="@id/btn_move_with_data"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:id="@+id/btn_dial_number"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/move_with_result"
+        android:layout_below="@id/btn_dial_number"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:id="@+id/btn_result_for_activity"/>
+
     <TextView
-    android:layout_width="match_parent"
-    android:layout_height="match_parent" />
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/result_from_activity"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:id="@+id/tv_result"
+        android:layout_below="@id/btn_result_for_activity"
+        android:textColor="#fcba03"/>
+
     </RelativeLayout>
